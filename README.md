@@ -8,7 +8,7 @@ Neural Style GUI is designed for rapid prototyping art from Neural Style. To tha
 ![Log Tab of Neural-Style-GUI](/screenshots/log.png?raw=true "Log Tab of Neural-Style-GUI")
 
 # Requirements
-* [Neural-Style](https://github.com/jcjohnson/neural-style)
+* [Neural-Style](https://github.com/jcjohnson/neural-style) you can follow [this guide](https://github.com/jcjohnson/neural-style/blob/master/INSTALL.md)
 * Java 8
 * JavaFX 8 (included with Oracle, separate package for OpenJDK)
 
@@ -24,9 +24,13 @@ Neural Style GUI is designed for rapid prototyping art from Neural Style. To tha
 * View session output image history and load recently used settings
 * vRAM usage gauge (NVIDIA only)
 * Log of Neural Style command output
+ 
+#Install
+dowload from the [realise tab](https://github.com/cameronleger/neural-style-gui/releases) the zip of the latest version and unzip it.
+Alternatively you can build from source and check the **target/jfx/app** folder.
 
 # Starting
-Unzip the release to a folder of your choice (or build from source and check the **target/jfx/app** folder). Run the neural-style-gui.sh file or run **java -jar neural-style-gui-*-jfx.jar** with any additional options you desire.
+Run the neural-style-gui.sh file or run **java -jar neural-style-gui-*-jfx.jar** with any additional options you desire.
 
 # Minimum Required Steps
 1. Set the Neural Style path
